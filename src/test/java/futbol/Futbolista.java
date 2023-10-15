@@ -48,4 +48,8 @@ public abstract class Futbolista implements Comparable<Futbolista> {
 	public String getPosicion() {
 		return this.POSICION;
 	}
+	
+	public int compareTo(Futbolista f) {
+		return 0;
+    }
 }
